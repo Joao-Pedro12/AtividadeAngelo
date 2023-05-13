@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            color: rgb(255, 77, 0);
+            background-image: url(imgcads.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            }
+        .cad{
+            width: 200px;
+            height: 30px;
+        }
+        fieldset{
+            border: 10px solid  rgb(229, 228, 234);
+            border-width: 4px; 
+            margin-right: 200px;
+            margin-left: 200px;
+        }
+        .display{
+            position: absolute;
+            top: -35%;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            width: 50%;
+            height: 50%;
+        }
+        .cads{
+            display: flex;
+            justify-content: center;
+            margin: top 50%;
+            height: 15vb;
+        }
+        .tag{
+            font: normal 20pt arial;
+        }
+        button[type="button"] {
+            background-color: black;
+            color: white;
+            padding: 7px 15px;
+            width: 80%;
+            height: 80%;
+            right: 20;
+            left: 20;
+        }
+
+    </style>
+</head>
+<body>
+   <div class="display"><center>
+        <div class="cads">
+            <form>
+                <legend class="tag">
+                    Cadastro de Usuario <br>
+                </legend>
+
+                    <fieldset>
+                        <input type="text" placeholder="Digite seu nome" class="cad"><br>
+                        <br>
+                        <input type="email" placeholder="Digite seu email" class="cad"><br>
+                        <br>
+                        <input type="password" placeholder="Digite sua senha" class="cad"><br>
+                        <br>
+                        <input type="password" placeholder="Confirme sua senha" class="cad"><br><br>
+
+                        <a href="projeto.html">
+                            <button type="button">Criar conta</button>
+                        </a>
+
+                    </fieldset>
+
+            </form>
+     </div>
+   </div></center>
+</body>
+</html>
